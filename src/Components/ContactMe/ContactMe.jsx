@@ -6,7 +6,7 @@ export const ContactMe = () => {
     <Wrapper>
       <LeftSide />
       <RightSide />
-      <div className="footer">
+      <div className="contact-footer">
         <p>
           Made with ❤ by pypro001 :)
         </p>
@@ -17,13 +17,13 @@ export const ContactMe = () => {
 const Wrapper = styled.main`
   display: flex;
   position: relative;
-  .footer{
-    display:hidden;
+  .contact-footer{
+    display:none;
   }
   @media (max-width: 1000px) {
     flex-direction: column;
     height: max-content;
-  .footer > p{
+  .contact-footer > p{
     text-align:center;
   }
   }

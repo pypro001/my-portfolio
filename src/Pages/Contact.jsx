@@ -18,6 +18,7 @@ const Contact = () => {
 };
 export default Contact;
 const Wrapper = styled.main`
+
   @media (max-width: 1000px) {
   }
 `;
