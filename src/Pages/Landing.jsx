@@ -15,7 +15,7 @@ const Landing = () => {
       <div className="gap"></div>
       <div className="text">
         <div className="top">
-          <p className="hello">Hello 😀, I am</p>
+          <p className="hello">Hello Stranger 😀, I am</p>
           <h1 className="dev_name">Vivek Maurya</h1>
           <h1 className="light">
             <span className="purple mob"> {">"}</span>
